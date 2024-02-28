@@ -4,12 +4,11 @@ import { Navbar } from "./components/Navbar";
 export default function App() {
   return (
     <Container>
-      <Navbar/>
+      <Navbar />
     </Container>
   );
 }
 
-
-const Container = styled('main', {
-  backgroundColor: '$gray1'
-})
+const Container = styled("main", {
+  backgroundColor: "$gray1",
+});
