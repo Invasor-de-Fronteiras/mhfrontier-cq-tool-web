@@ -1,8 +1,11 @@
 import { styled } from "../lib/stitches.config"
+import FileDropdownMenu from "./FileDropdownMenu";
+// import DropdownMenu from "./FileDropdownMenu";
+// import File from "./FileDropdownMenu";
 
 export const Navbar = () => <Container>
     <LeftContent>
-        <Item>File</Item>
+        <FileDropdownMenu triggerComponent={<Item>File</Item>} />
         <Item>Language</Item>
         <Item>Dev mode</Item>
     </LeftContent>
